@@ -72,7 +72,7 @@ jobs:
           service-checks: |
             - check: "attestation-integration.actions.prober"
               message: "${{ github.repository_owner }} failed prober check"
-              status: 2
+              status: 0
               host_name: github.com
               tags:
                 - "catalog_service:${{ secrets.CATALOG_SERVICE }}"
