@@ -320,5 +320,5 @@ artifact directly into the `subject-digest` input of the attestation action.
 [8]: https://github.com/actions/toolkit/tree/main/packages/glob#patterns
 [9]:
   https://docs.github.com/en/actions/security-guides/using-artifact-attestations-to-establish-provenance-for-builds
-[10]: https://github.com/sigstore/cosign/blob/main/specs/BUNDLE_SPEC.md
-[11]: https://github.com/actions/upload-artifact
+§§: https://github.com/sigstore/cosign/blob/main/specs/BUNDLE_SPEC.md
+§§: https://github.com/actions/upload-artifact
