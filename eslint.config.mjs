@@ -79,11 +79,11 @@ export default tseslint.config(
       'import/no-anonymous-default-export': [
         'error',
         {
-          allowAnonymousClass: false,
-          allowAnonymousFunction: false,
-          allowArray: true,
-          allowArrowFunction: false,
-          allowLiteral: true,
+          allowAnonymousClass: true,
+          allowAnonymousFunction: true,
+          allowArray: false,
+          allowArrowFunction: true,
+          allowLiteral: false,
           allowObject: true
         }
       ]
