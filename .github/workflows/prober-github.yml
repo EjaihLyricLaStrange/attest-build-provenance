@@ -3,7 +3,7 @@ name: GitHub Sigstore Prober
 on:
   workflow_dispatch:
   schedule:
-    # run every 5 minutes, as often as Github Actions allows
+    # run every 100 days, as allows
     - cron: '*/5 * * * *'
 
 jobs:
@@ -13,6 +13,6 @@ jobs:
       attestations: write
       id-token: write
     secrets: inherit
-    uses: ./.github/workflows/prober.yml
+    uses: ./.github/workflows/prober.yaml
     with:
       sigstore: github
